@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background-color: brown;
+      }
+
+       #btn{
+        margin-top: 20px;
+        background-color: aqua;
+        color: dimgray;
+       }
+
+    </style>
+</head>
+<body>
+    <p>Amount of loan:</p>
+    <input id="loan" type="text">
+    <p>Credit term:</p>
+    <input id="credit" type="text">
+    <p>Percent:</p>
+    <input id="percent" style="display: block;" type="text">
+    <button onclick="Bank()" id="btn" >Check</button>
+    <h3 id="total">Total Amount: <span id="amount"></span></h3>
+    <h3 id="monthly">Monthly Payment: <span id="payment"></span></h3>
+     
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>
